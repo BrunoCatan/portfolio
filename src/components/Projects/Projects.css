@@ -1,0 +1,24 @@
+.Projects_container {
+  margin-top: 8vmax;
+}
+
+.Projects_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Projects_h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+.Projects_p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #a7a7a7;
+  margin-bottom: 5rem;
+}
