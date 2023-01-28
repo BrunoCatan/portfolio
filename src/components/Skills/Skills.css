@@ -26,16 +26,16 @@
   height: 1vh;
 }
 
-.skills_imgs img {
-  height: 10vh;
-}
-
 .skills_imgs {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.skills_imgs img {
+  height: 10vh;
 }
 
 .skills_imgs p {

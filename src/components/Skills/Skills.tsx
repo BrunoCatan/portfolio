@@ -65,9 +65,6 @@ export function Skills() {
             <p>Vscode</p>
           </div>
         </div>
-        {/* <div className="skills_imgs_flex">
-          
-        </div> */}
       </div>
     </div>
   );
