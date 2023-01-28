@@ -23,7 +23,7 @@ body {
     top: 7vh;
     right: 0;
     width: 40%;
-    height: 20vh;
+    /* height: 20vh; */
     padding: 5%;
     flex-direction: column;
     transform: translateX(100%);
@@ -50,6 +50,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .skills_h1 {
+    font-size: 5vw;
+  }
+  .skills_p {
+    font-size: 2.8vw;
+  }
+  .skills_imgs_flex {
+    width: 90vw;
+    height: 30vh;
+    justify-content: center;
+  }
+  .skills_sub_imgs {
+    margin-top: 2%;
+    padding: 1.8%;
   }
 }
 

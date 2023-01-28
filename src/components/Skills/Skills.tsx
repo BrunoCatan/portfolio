@@ -44,8 +44,6 @@ export function Skills() {
             <img src={imgs[4]} alt="Logo Typescript" />
             <p>Typescript</p>
           </div>
-        </div>
-        <div className="skills_imgs_flex">
           <div className="skills_sub_imgs">
             <img src={imgs[5]} alt="Logo Bootstrap" />
             <p>Bootstrap</p>
@@ -67,6 +65,9 @@ export function Skills() {
             <p>Vscode</p>
           </div>
         </div>
+        {/* <div className="skills_imgs_flex">
+          
+        </div> */}
       </div>
     </div>
   );
