@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 27.76px;
+        fill: #A7A7A7;
+        font-family: Aldrich;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="_BRuno_" data-name="&lt;BRuno&gt;" class="cls-1" transform="matrix(1.798, 0, 0, 1.798, 107.515, 117.775)">&lt;BRuno&gt;</text>
+  <text id="_catan_" data-name="&lt;/catan&gt;" class="cls-1" transform="matrix(1.798, 0, 0, 1.798, 26.515, 162.775)">&lt;/catan&gt;</text>
+</svg>

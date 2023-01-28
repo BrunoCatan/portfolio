@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #363636;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_toggle {
+    display: block;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 40%;
+    height: 20vh;
+    padding: 5%;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    background-color: #762074;
+    border-radius: 7%;
+    margin-top: 0;
+  }
+  .nav_img {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 35vw;
+  }
+  .about_container {
+    flex-direction: column-reverse;
+    margin-top: 5%;
+  }
+  .about_div {
+    margin-top: 5vmax;
+    width: 50vw;
+  }
+  .about_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.nav_active {
+  transform: translateX(0);
+}

@@ -1,0 +1,44 @@
+.skills_container {
+  margin-top: 13vmax;
+}
+
+.skills_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills_h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+.skills_p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #a7a7a7;
+  margin-bottom: 5rem;
+}
+
+.skills_imgs img {
+  height: 10vh;
+}
+
+.skills_imgs {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills_imgs p {
+  color: #a7a7a7;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
