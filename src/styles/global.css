@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 
 * {
@@ -12,9 +12,25 @@ html {
 
 body {
   background-color: #363636;
+  overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1366px) {
+  .My_projects_container {
+    margin-top: 10vmax;
+  }
+  .Project_div {
+    width: 60vw;
+  }
+  .Projects_cards_h1 {
+    font-size: 1.2vmax;
+  }
+  .Projects_cards_p {
+    font-size: 0.8vmax;
+  }
+}
+
+@media screen and (max-width: 820px) {
   .nav_toggle {
     display: block;
   }
@@ -23,7 +39,6 @@ body {
     top: 7vh;
     right: 0;
     width: 40%;
-    /* height: 20vh; */
     padding: 5%;
     flex-direction: column;
     transform: translateX(100%);
@@ -59,12 +74,46 @@ body {
   }
   .skills_imgs_flex {
     width: 90vw;
-    height: 30vh;
+    height: 60vh;
     justify-content: center;
   }
   .skills_sub_imgs {
     margin-top: 2%;
     padding: 1.8%;
+  }
+  .My_projects_container {
+    margin-top: 20vmax;
+  }
+  .My_projects_h1 {
+    font-size: 5vw;
+  }
+  .My_projects_p {
+    font-size: 2.8vw;
+  }
+  .Project_div {
+    width: 95vw;
+    gap: 1rem;
+  }
+  .Projects_cards {
+    width: 46vw;
+    height: 30vh;
+  }
+  .Projects_cards_img {
+    width: 46vw;
+    height: 12vh;
+  }
+  .Projects_cards_h1 {
+    font-size: 1.8vmax;
+  }
+  .Projects_cards_flex {
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+  }
+  .Projects_cards_p {
+    font-size: 1vmax;
+    width: 46vw;
+  }
+  .Projects_card_a {
+    font-size: 1vmax;
   }
 }
 

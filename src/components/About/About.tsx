@@ -11,7 +11,7 @@ export function About() {
           <p>Front-end</p>
         </div>
       </div>
-      <img src={img} alt="" className="about_img" />
+      <img src={img} alt="Imagem Bruno catan" className="about_img" />
     </div>
   );
 }
