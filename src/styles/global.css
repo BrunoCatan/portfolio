@@ -115,6 +115,9 @@ body {
   .Projects_card_a {
     font-size: 1vmax;
   }
+  .Footer_division_div {
+    width: 93vw;
+  }
 }
 
 .nav_active {

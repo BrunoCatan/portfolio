@@ -1,4 +1,5 @@
 import { About } from "./components/About/About";
+import { Footer } from "./components/Footer/Footer";
 import { MyProjects } from "./components/MyProjects/MyProjects";
 import { Navbar } from "./components/Navbar/NavBar";
 import { Projects } from "./components/Projects/Projects";
@@ -32,18 +33,7 @@ function App() {
       <Skills />
       <MyProjects />
       <Projects />
-      {/* {projets.map((projet, i) => {
-        return (
-          <Projects
-            key={`${projet}-${i}`}
-            img={projet.img}
-            title={projet.title}
-            description={projet.description}
-            deploy={projet.deploy}
-            repo={projet.repo}
-          />
-        );
-      })} */}
+      <Footer />
     </div>
   );
 }

@@ -14,7 +14,9 @@ export function Navbar() {
     <div>
       <nav className="nav_container">
         <div>
-          <img src={Logo} alt="Logo Bruno Catan" className="nav_img" />
+          <a href="">
+            <img src={Logo} alt="Logo Bruno Catan" className="nav_img" />
+          </a>
         </div>
         <ul className={active}>
           <li className="nav_li">
