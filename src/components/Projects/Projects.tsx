@@ -1,5 +1,6 @@
 import "./Projects.css";
 import { BsLink45Deg, BsGithub } from "react-icons/bs";
+import { AiFillFolderOpen } from "react-icons/ai";
 
 const projets = [
   {
@@ -34,14 +35,6 @@ const projets = [
     repo: "#",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/starbucks/main/.github/project.png",
-    title: "Starbacks Web site",
-    description:
-      "Site criado com a cara da starbucks, realizado no evento da DevClub, a onde quando você clica nos potes ele troca a imagem principal.",
-    deploy: "https://brunocatan.github.io/starbucks/",
-    repo: "https://github.com/BrunoCatan/starbucks",
-  },
-  {
     img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216873603112/project.png",
     title: "Rocket Garage",
     description:
@@ -53,40 +46,54 @@ const projets = [
 
 export function Projects() {
   return (
-    <div className="Project_container">
-      <div className="Project_div">
-        {projets.map((project, i) => {
-          return (
-            <ul className="Projects_cards_div" key={i}>
-              <li className="Projects_cards">
-                <img src={project.img} alt="" className="Projects_cards_img" />
-                <div className="Projects_cards_flex">
-                  <h1 className="Projects_cards_h1">{project.title}</h1>
-                  <p className="Projects_cards_p">{project.description}</p>
-                  <div className="Projects_cards_a_flex">
-                    <a
-                      href={project.deploy}
-                      className="Projects_card_a"
-                      target="_blank"
-                    >
-                      <BsLink45Deg className="Projects_card_icons" />
-                      Deploy
-                    </a>
-                    <a
-                      href={project.repo}
-                      className="Projects_card_a"
-                      target="_blank"
-                    >
-                      <BsGithub className="Projects_card_icons" />
-                      Repositório
-                    </a>
+    <div className="Project_main">
+      <div className="Project_container">
+        <div className="Project_div">
+          {projets.map((project, i) => {
+            return (
+              <ul className="Projects_cards_div" key={i}>
+                <li className="Projects_cards">
+                  <img
+                    src={project.img}
+                    alt=""
+                    className="Projects_cards_img"
+                  />
+                  <div className="Projects_cards_flex">
+                    <h1 className="Projects_cards_h1">{project.title}</h1>
+                    <p className="Projects_cards_p">{project.description}</p>
+                    <div className="Projects_cards_a_flex">
+                      <a
+                        href={project.deploy}
+                        className="Projects_card_a"
+                        target="_blank"
+                      >
+                        <BsLink45Deg className="Projects_card_icons" />
+                        Deploy
+                      </a>
+                      <a
+                        href={project.repo}
+                        className="Projects_card_a"
+                        target="_blank"
+                      >
+                        <BsGithub className="Projects_card_icons" />
+                        Repositório
+                      </a>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          );
-        })}
+                </li>
+              </ul>
+            );
+          })}
+        </div>
       </div>
+      <a
+        href="https://github.com/BrunoCatan?tab=repositories"
+        target="_blank"
+        className="Projects_Button"
+      >
+        <AiFillFolderOpen className="Projects_Button_icon" />
+        Mais Projetos
+      </a>
     </div>
   );
 }

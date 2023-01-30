@@ -46,7 +46,10 @@ export function Footer() {
         </div>
         <p className="Footer_Developed">
           Developed by
-          <a href="https://www.linkedin.com/in/brunocatan/"> BrunoCatan</a>
+          <a href="https://www.linkedin.com/in/brunocatan/" target="_blank">
+            {" "}
+            BrunoCatan
+          </a>
         </p>
       </div>
     </div>

@@ -1,3 +1,10 @@
+.Project_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .Project_container {
   width: 100vw;
   display: flex;
@@ -33,20 +40,9 @@
   border-radius: 20px 20px 0 0;
 }
 
-/* .Projects_cards_flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  height: 28vh;
-} */
-
 .Projects_cards_flex {
   display: grid;
   grid-template-rows: 0.1fr 10fr 0.1fr;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
   text-align: center;
   height: 28vh;
 }
@@ -83,4 +79,26 @@
 
 .Projects_card_icons {
   margin: 0.5rem;
+}
+
+.Projects_Button_icon {
+  height: 1.5vh;
+  width: 1vw;
+}
+
+.Projects_Button {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 6vw;
+  height: 3vh;
+  background-color: #363636;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
 }

@@ -28,6 +28,10 @@ body {
   .Projects_cards_p {
     font-size: 0.8vmax;
   }
+  .Projects_Button {
+    width: 8vw;
+    height: 4vh;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -117,6 +121,15 @@ body {
   }
   .Footer_division_div {
     width: 93vw;
+  }
+  .Projects_Button {
+    width: 25vw;
+    height: 3.5vh;
+    margin-top: 2%;
+  }
+  .Projects_Button_icon {
+    height: 4vh;
+    width: 4vw;
   }
 }
 
