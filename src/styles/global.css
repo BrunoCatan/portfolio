@@ -16,6 +16,9 @@ body {
 }
 
 @media screen and (max-width: 1366px) {
+  .about_img {
+    width: 20vw;
+  }
   .My_projects_container {
     margin-top: 10vmax;
   }
@@ -63,6 +66,9 @@ body {
   .about_div {
     margin-top: 5vmax;
     width: 50vw;
+  }
+  .about_img {
+    width: auto;
   }
   .about_p {
     display: flex;

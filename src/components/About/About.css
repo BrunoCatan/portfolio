@@ -10,10 +10,10 @@
 }
 
 .about_img {
-  border-radius: 500px;
-  border: 5px solid #762074;
   height: 35vh;
   width: 18vw;
+  border-radius: 500px;
+  border: 5px solid #762074;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
   object-fit: cover;
 }
