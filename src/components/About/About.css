@@ -14,6 +14,7 @@
   border: 5px solid #762074;
   align-items: center;
   height: 35vh;
+  width: auto;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
 }
 
