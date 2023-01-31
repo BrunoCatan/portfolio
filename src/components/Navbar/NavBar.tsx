@@ -40,11 +40,7 @@ export function Navbar() {
             </a>
           </li>
         </ul>
-        <button
-          onClick={navToggle}
-          className="nav_toggle"
-          data-message="Botão de abertura do menu"
-        >
+        <button onClick={navToggle} className="nav_toggle">
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
