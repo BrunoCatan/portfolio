@@ -40,7 +40,11 @@ export function Navbar() {
             </a>
           </li>
         </ul>
-        <button onClick={navToggle} className="nav_toggle">
+        <button
+          onClick={navToggle}
+          className="nav_toggle"
+          placeholder="Botão de abertura do menu"
+        >
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
