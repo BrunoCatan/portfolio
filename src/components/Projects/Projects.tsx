@@ -4,7 +4,8 @@ import { AiFillFolderOpen } from "react-icons/ai";
 
 const projets = [
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/portifolio/main/.github/project.png?token=GHSAT0AAAAAABZRJJOVKAZPDIVBARUHWQ5WY6YK5XA",
+    // img: "https://raw.githubusercontent.com/BrunoCatan/portifolio/main/.github/project.png?token=GHSAT0AAAAAABZRJJOVKAZPDIVBARUHWQ5WY6YK5XA",
+    img: "",
     title: "Meu Portfólio",
     description:
       "Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portfólio profissional.",
@@ -12,7 +13,8 @@ const projets = [
     repo: "https://github.com/BrunoCatan/portifolio",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/nlw-setup-ignite/main/.github/web01.png",
+    // img: "https://raw.githubusercontent.com/BrunoCatan/nlw-setup-ignite/main/.github/web01.png",
+    img: "",
     title: "NLW Setup ignite",
     description:
       "Aplicação de criação de hábitos, listagem de hábitos, marcação de concluído, percentagens e etc...",
@@ -20,7 +22,8 @@ const projets = [
     repo: "https://github.com/BrunoCatan/nlw-setup-ignite",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/secret_word/main/.github/project.png",
+    // img: "https://raw.githubusercontent.com/BrunoCatan/secret_word/main/.github/project.png",
+    img: "",
     title: "Secret word",
     description:
       "Jogo de palavras, a onde você tem que adivinhar a palavra de acordo com a dica.",
@@ -28,7 +31,8 @@ const projets = [
     repo: "https://github.com/BrunoCatan/secret_word",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/pesquisador-github/main/.github/project.png",
+    // img: "https://raw.githubusercontent.com/BrunoCatan/pesquisador-github/main/.github/project.png",
+    img: "",
     title: "Pesquisador Github",
     description:
       "Com ele você consegui pesquisar coisa dentro do github, desde usuários a repositório e muito mais...",
@@ -36,14 +40,16 @@ const projets = [
     repo: "https://github.com/BrunoCatan/pesquisador-github",
   },
   {
-    img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216563228702/projectWeb.png",
+    // img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216563228702/projectWeb.png",
+    img: "",
     title: "Rocket web site",
     description: "Projeto web para o Rocket Roleplay.",
     deploy: "https://rocketrp.com.br/",
     repo: "#",
   },
   {
-    img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216873603112/project.png",
+    // img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216873603112/project.png",
+    img: "",
     title: "Rocket Garage",
     description:
       "O Rocket garage é um script de garagem para seus players poder retirar seu veículos em game.",
