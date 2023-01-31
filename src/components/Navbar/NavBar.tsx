@@ -43,7 +43,7 @@ export function Navbar() {
         <button
           onClick={navToggle}
           className="nav_toggle"
-          placeholder="Botão de abertura do menu"
+          data-message="Botão de abertura do menu"
         >
           <div className="line1"></div>
           <div className="line2"></div>
