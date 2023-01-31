@@ -14,13 +14,13 @@ export function Navbar() {
     <div id="top">
       <nav className="nav_container">
         <div>
-          <a href="top">
+          <a href="#top">
             <img src={Logo} alt="Logo Bruno Catan" className="nav_img" />
           </a>
         </div>
         <ul className={active}>
           <li className="nav_li">
-            <a href="top" className="nav_a">
+            <a href="#top" className="nav_a">
               Home
             </a>
           </li>
