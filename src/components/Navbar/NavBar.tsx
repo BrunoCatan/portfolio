@@ -11,7 +11,7 @@ export function Navbar() {
   };
 
   return (
-    <div>
+    <div id="NavBar">
       <nav className="nav_container">
         <div>
           <a href="">
@@ -20,22 +20,22 @@ export function Navbar() {
         </div>
         <ul className={active}>
           <li className="nav_li">
-            <a href="" className="nav_a">
+            <a href="#NavBar" className="nav_a">
               Home
             </a>
           </li>
           <li className="nav_li">
-            <a href="" className="nav_a">
+            <a href="#Skills" className="nav_a">
               Skills
             </a>
           </li>
           <li className="nav_li">
-            <a href="" className="nav_a">
+            <a href="#MyProjects" className="nav_a">
               Projetos
             </a>
           </li>
           <li className="nav_li">
-            <a href="" className="nav_a">
+            <a href="#Contact" className="nav_a">
               Contatos
             </a>
           </li>

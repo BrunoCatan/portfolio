@@ -5,7 +5,7 @@ import { GoMarkGithub } from "react-icons/go";
 
 export function Footer() {
   return (
-    <div className="Footer_main">
+    <div className="Footer_main" id="Contact">
       <div className="Footer_division">
         <div className="Footer_division_div"></div>
       </div>

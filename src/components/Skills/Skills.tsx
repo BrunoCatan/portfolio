@@ -15,7 +15,7 @@ const imgs = [
 
 export function Skills() {
   return (
-    <div className="skills_container">
+    <div className="skills_container" id="Skills">
       <div className="skills_div">
         <h1 className="skills_h1">Minhas Stacks</h1>
         <p className="skills_p">
