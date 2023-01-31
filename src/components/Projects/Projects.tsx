@@ -4,6 +4,14 @@ import { AiFillFolderOpen } from "react-icons/ai";
 
 const projets = [
   {
+    img: "https://raw.githubusercontent.com/BrunoCatan/portifolio/main/.github/project.png?token=GHSAT0AAAAAABZRJJOVKAZPDIVBARUHWQ5WY6YK5XA",
+    title: "Meu Portfólio",
+    description:
+      "Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portfólio profissional.",
+    deploy: "#",
+    repo: "https://github.com/BrunoCatan/portifolio",
+  },
+  {
     img: "https://raw.githubusercontent.com/BrunoCatan/nlw-setup-ignite/main/.github/web01.png",
     title: "NLW Setup ignite",
     description:
