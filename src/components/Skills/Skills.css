@@ -31,7 +31,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .skills_imgs img {
@@ -55,4 +54,5 @@
   height: 30vh;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
