@@ -20,7 +20,7 @@ export function Navbar() {
         </div>
         <ul className={active}>
           <li className="nav_li">
-            <a href="#NavBar" className="nav_a">
+            <a href="top" className="nav_a">
               Home
             </a>
           </li>
