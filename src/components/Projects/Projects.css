@@ -39,6 +39,7 @@
   width: 18vw;
   border-radius: 20px 20px 0 0;
   border-bottom: 0.1vmax solid #cccccc;
+  object-fit: cover;
 }
 
 .Projects_cards_flex {

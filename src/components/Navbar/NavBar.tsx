@@ -11,7 +11,7 @@ export function Navbar() {
   };
 
   return (
-    <div id="NavBar">
+    <div id="top">
       <nav className="nav_container">
         <div>
           <a href="">

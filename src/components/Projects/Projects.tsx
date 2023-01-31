@@ -63,7 +63,7 @@ export function Projects() {
                 <li className="Projects_cards">
                   <img
                     src={project.img}
-                    alt=""
+                    alt={project.title}
                     className="Projects_cards_img"
                   />
                   <div className="Projects_cards_flex">

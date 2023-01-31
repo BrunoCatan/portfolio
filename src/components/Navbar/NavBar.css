@@ -26,6 +26,7 @@
   font-weight: bold;
   width: 12vw;
   height: 14vh;
+  object-fit: cover;
 }
 
 .nav_menu {
