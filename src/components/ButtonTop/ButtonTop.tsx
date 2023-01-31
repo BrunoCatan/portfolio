@@ -13,7 +13,7 @@ export function ButtonTop() {
   return (
     <div>
       {pageYPosition > 50 && (
-        <a href="top" className="ButtonTop">
+        <a href="#top" className="ButtonTop">
           <BsArrowUpCircle className="ButtonIcon" />
         </a>
       )}
