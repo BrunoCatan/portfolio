@@ -58,6 +58,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     width: 35vw;
+    height: 10vh;
   }
   .about_container {
     flex-direction: column-reverse;
