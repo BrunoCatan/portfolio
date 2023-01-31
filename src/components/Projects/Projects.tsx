@@ -47,7 +47,8 @@ const projets = [
     title: "Rocket Garage",
     description:
       "O Rocket garage é um script de garagem para seus players poder retirar seu veículos em game.",
-    deploy: "#",
+    deploy:
+      "https://cdn.discordapp.com/attachments/666981266008309770/1069048216873603112/project.png",
     repo: "#",
   },
 ];
