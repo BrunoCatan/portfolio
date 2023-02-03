@@ -19,6 +19,9 @@ body {
   .about_img {
     width: 18vw;
   }
+  .skills_container {
+    margin-top: 3.2vmax;
+  }
   .My_projects_container {
     margin-top: 10vmax;
   }
@@ -53,9 +56,10 @@ body {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
-    background-color: #762074;
-    border-radius: 7%;
+    background-color: #363636;
+    border-radius: 7px;
     margin-top: 0;
+    border: 1px solid #cccccc;
   }
   .nav_img {
     text-transform: uppercase;
@@ -79,6 +83,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .about_cv {
+    height: 4vh;
+    width: 18vw;
   }
   .skills_h1 {
     font-size: 5vw;

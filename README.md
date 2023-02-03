@@ -34,7 +34,7 @@ Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portf�
 
 ## 👨🏻‍💻 Deploy
 
-<a target="_blank" href="">CLICK PARA ACESSAR!</a>
+<a target="_blank" href="https://brunocatan.dev">CLICK PARA ACESSAR!</a>
 
 ## :memo: Licença
 
