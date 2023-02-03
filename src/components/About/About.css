@@ -54,3 +54,7 @@
   text-transform: uppercase;
   border: 1px solid #cccccc;
 }
+
+.about_cv:hover {
+  opacity: 0.8;
+}
