@@ -83,11 +83,6 @@
   margin: 0.5rem;
 }
 
-.Projects_Button_icon {
-  height: 1.5vh;
-  width: 1vw;
-}
-
 .Projects_Button {
   margin-top: 1%;
   display: flex;
@@ -97,10 +92,13 @@
   width: 6vw;
   height: 3vh;
   background-color: #363636;
-  color: #fff;
+  color: #cccccc;
   font-family: "Poppins";
   font-weight: 700;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
+  border: 1px solid #cccccc;
+  padding: 0.625rem;
 }

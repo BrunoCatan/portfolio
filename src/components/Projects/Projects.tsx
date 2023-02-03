@@ -1,6 +1,5 @@
 import "./Projects.css";
 import { BsLink45Deg, BsGithub } from "react-icons/bs";
-import { AiFillFolderOpen } from "react-icons/ai";
 
 const projets = [
   {
@@ -100,7 +99,6 @@ export function Projects() {
         target="_blank"
         className="Projects_Button"
       >
-        <AiFillFolderOpen className="Projects_Button_icon" />
         Mais Projetos
       </a>
     </div>

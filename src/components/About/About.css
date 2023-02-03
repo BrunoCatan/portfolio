@@ -53,6 +53,7 @@
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
   text-transform: uppercase;
   border: 1px solid #cccccc;
+  padding: 10px;
 }
 
 .about_cv:hover {
