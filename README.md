@@ -43,7 +43,7 @@ Esse projeto está sob a licença MIT.
 ---
 
 <div align="center">
-  <h3> Developed by <a href="https://www.linkedin.com/in/brunocatan/">Bruno Catan</a> ☕</h3>
+  <h3> Developed by <a href="https://brunocatan.dev/">Bruno Catan</a> ☕</h3>
   <a href="https://www.linkedin.com/in/brunocatan/" target="_blank"><img src="https://img.icons8.com/ios-filled/30/696969/linkedin-circled--v1.png"></a>
   <a href="https://wa.me/+5517992817472" target="_blank"><img src="https://img.icons8.com/ios-glyphs/32/696969/whatsapp.png"></a>
   <a href="mailto:devbrunocatan@gmail.com" target="_blank"><img src="https://img.icons8.com/ios-filled/32/696969/gmail.png" target="_blank"></a>
