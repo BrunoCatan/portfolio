@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -   Typescript.
 -   React.
 -   React Icons.
--   Scroll-to-element
+-   ScrollToElement
 
 ## 💻 Projeto
 
