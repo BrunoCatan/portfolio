@@ -22,11 +22,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Vite.
-- Css.
-- Typescript.
-- React.
-- React Icons.
+-   Vite.
+-   Css.
+-   Typescript.
+-   React.
+-   React Icons.
+-   Scroll-to-element
 
 ## 💻 Projeto
 

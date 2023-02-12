@@ -1,22 +1,37 @@
 import { useState } from "react";
 import "../ButtonTop/ButtonTop.css";
 import { BsArrowUpCircle } from "react-icons/bs";
+import scrollToElement from "scroll-to-element";
 
 export function ButtonTop() {
-  const [pageYPosition, setPageYPosition] = useState(0);
+    const handleClick = (
+        event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+    ) => {
+        event.preventDefault();
+        const targetId = event.currentTarget.getAttribute("href");
+        if (targetId) {
+            scrollToElement(targetId, {
+                offset: 0,
+                ease: "out-quint",
+                duration: 800,
+            });
+        }
+    };
 
-  function getPageYAfterScroll() {
-    setPageYPosition(window.scrollY);
-  }
+    const [pageYPosition, setPageYPosition] = useState(0);
 
-  window.addEventListener("scroll", getPageYAfterScroll);
-  return (
-    <div>
-      {pageYPosition > 50 && (
-        <a href="#top" className="ButtonTop">
-          <BsArrowUpCircle className="ButtonIcon" />
-        </a>
-      )}
-    </div>
-  );
+    function getPageYAfterScroll() {
+        setPageYPosition(window.scrollY);
+    }
+
+    window.addEventListener("scroll", getPageYAfterScroll);
+    return (
+        <div>
+            {pageYPosition > 50 && (
+                <a href="#top" className="ButtonTop" onClick={handleClick}>
+                    <BsArrowUpCircle className="ButtonIcon" />
+                </a>
+            )}
+        </div>
+    );
 }
