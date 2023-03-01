@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portfólio profissional.
+Projeto desenvolvido para demostrar um poucos mais dos meus projetos, um portfólio profissional.
 
 ## 👨🏻‍💻 Deploy
 
