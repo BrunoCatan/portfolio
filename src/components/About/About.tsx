@@ -3,7 +3,7 @@ import img from "../../assets/Image01.svg";
 
 export function About() {
   const cv =
-    "https://public.ph.files.1drv.com/y4mQ9zzJ5xiheCgX_db2kG3lMkrvlQKN0MXAWoc79wzmib2nadBQEJIdel1VBrpiZO1fzUigFDLzA5rCgjjo7nnvHqmNoaw0cx4x7qWWS4cLLopdydHLOzmxDxifT8GCQIo_bQUWyysxbhICrm0vLsguz2lT7ZjyPwLNByb8r3EEP6teMFudfjdyZR4_wax5jhSYa2te4xCkSUiTKNjnbtUX_OOJHefA4HWE4mczB-rb2s?AVOverride=1";
+    "https://fbuqcq.ph.files.1drv.com/y4mTQ5aiG43wbGROqNngYFMdXpDbxLED3NtjNZ9j22Y5loIWKgZDh2rVJ56tBWOcukLKh2H71eighXueQfq7OFnErY2yQ3M109H5VKrDsnPh3RsY0n62xSGOu5C_HS-X1PVBb88_KkWaEtU6E07jJqiImO_UAT9_mdicU1sP-qG9-snzBoMyQ6ZPjvRdqTPpsz2IOfqNILmV1dG4yPtR06Ofw";
 
   return (
     <div>
