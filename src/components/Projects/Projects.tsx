@@ -42,12 +42,12 @@ const projets = [
         repo: "https://github.com/BrunoCatan/pesquisador-github",
     },
     {
-        img: "https://raw.githubusercontent.com/BrunoCatan/nlw-setup-ignite/main/.github/web01.png",
-        title: "NLW Setup ignite",
+        img: "https://user-images.githubusercontent.com/75697499/229916544-148ebd54-fbd9-4904-b1be-844ea9a16270.png",
+        title: "Pokedex",
         description:
-            "Aplicação de criação de hábitos, listagem de hábitos, marcação de concluído, percentagens e etc...",
-        deploy: "#",
-        repo: "https://github.com/BrunoCatan/nlw-setup-ignite",
+            "Projeto de uma pokedex com o uso de Api, pesquise seus pokemon favoritos...",
+        deploy: "https://brunocatan.github.io/projeto-pokedex/",
+        repo: "https://github.com/BrunoCatan/projeto-pokedex",
     },
 ];
 
