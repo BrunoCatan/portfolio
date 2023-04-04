@@ -7,7 +7,7 @@ const projets = [
         title: "Meu Portfólio",
         description:
             "Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portfólio profissional.",
-        deploy: "https://portifolio-brunocatan.vercel.app/",
+        deploy: "https://www.brunocatan.dev",
         repo: "https://github.com/BrunoCatan/portifolio",
     },
     {
