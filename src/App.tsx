@@ -8,17 +8,17 @@ import { Skills } from "./components/Skills/Skills";
 import "./styles/global.css";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <About />
-      <Skills />
-      <MyProjects />
-      <Projects />
-      <Footer />
-      <ButtonTop />
-    </div>
-  );
+    return (
+        <div>
+            <Navbar />
+            <About />
+            <Skills />
+            <MyProjects />
+            <Projects />
+            <Footer />
+            <ButtonTop />
+        </div>
+    );
 }
 
 export default App;
