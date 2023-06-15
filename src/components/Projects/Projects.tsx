@@ -1,4 +1,4 @@
-import "./Projects.css";
+import styles from "./Projects.module.css";
 import { BsLink45Deg, BsGithub } from "react-icons/bs";
 
 const projets = [
@@ -53,45 +53,75 @@ const projets = [
 
 export function Projects() {
     return (
-        <div className="Project_main">
-            <div className="Project_container">
-                <div className="Project_div">
+        <div className={styles.Project_main}>
+            <div className={styles.Project_container}>
+                <div className={styles.Project_div}>
                     {projets.map((project, i) => {
                         return (
-                            <ul className="Projects_cards_div" key={i}>
-                                <li className="Projects_cards">
+                            <ul className={styles.Projects_cards_div} key={i}>
+                                <li className={styles.Projects_cards}>
                                     <a
                                         href={project.deploy}
                                         target="_blank"
-                                        className="Projects_a_primary"
+                                        className={styles.Projects_a_primary}
                                     >
                                         <img
                                             src={project.img}
                                             alt={project.title}
-                                            className="Projects_cards_img"
+                                            className={
+                                                styles.Projects_cards_img
+                                            }
                                         />
-                                        <div className="Projects_cards_flex">
-                                            <h1 className="Projects_cards_h1">
+                                        <div
+                                            className={
+                                                styles.Projects_cards_flex
+                                            }
+                                        >
+                                            <h1
+                                                className={
+                                                    styles.Projects_cards_h1
+                                                }
+                                            >
                                                 {project.title}
                                             </h1>
-                                            <p className="Projects_cards_p">
+                                            <p
+                                                className={
+                                                    styles.Projects_cards_p
+                                                }
+                                            >
                                                 {project.description}
                                             </p>
-                                            <div className="Projects_cards_a_flex">
+                                            <div
+                                                className={
+                                                    styles.Projects_cards_a_flex
+                                                }
+                                            >
                                                 <a
                                                     href={project.deploy}
-                                                    className="Projects_card_a"
+                                                    className={
+                                                        styles.Projects_card_a
+                                                    }
                                                     target="_blank"
                                                 >
-                                                    <BsLink45Deg className="Projects_card_icons" />
+                                                    <BsLink45Deg
+                                                        className={
+                                                            styles.Projects_card_icons
+                                                        }
+                                                    />
                                                     Deploy
                                                 </a>
                                                 <a
                                                     href={project.repo}
-                                                    className="Projects_card_a"
+                                                    className={
+                                                        styles.Projects_card_a
+                                                    }
                                                     target="_blank"
                                                 >
-                                                    <BsGithub className="Projects_card_icons" />
+                                                    <BsGithub
+                                                        className={
+                                                            styles.Projects_card_icons
+                                                        }
+                                                    />
                                                     Repositório
                                                 </a>
                                             </div>
@@ -106,7 +136,7 @@ export function Projects() {
             <a
                 href="https://github.com/BrunoCatan?tab=repositories"
                 target="_blank"
-                className="Projects_Button"
+                className={styles.Projects_Button}
             >
                 Mais Projetos
             </a>

@@ -50,3 +50,33 @@
     border: none;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 820px) {
+    .nav_toggle {
+        display: block;
+    }
+    .nav_menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 40%;
+        padding: 5%;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        background-color: #363636;
+        border-radius: 7px;
+        margin-top: 0;
+        border: 1px solid #cccccc;
+    }
+    .nav_img {
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 35vw;
+        height: 10vh;
+    }
+}
+
+.nav_active {
+    transform: translateX(0);
+}

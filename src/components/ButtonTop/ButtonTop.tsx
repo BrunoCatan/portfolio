@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../ButtonTop/ButtonTop.css";
+import styles from "./ButtonTop.module.css";
 import { BsArrowUpCircle } from "react-icons/bs";
 import scrollToElement from "scroll-to-element";
 
@@ -28,8 +28,12 @@ export function ButtonTop() {
     return (
         <div>
             {pageYPosition > 50 && (
-                <a href="#top" className="ButtonTop" onClick={handleClick}>
-                    <BsArrowUpCircle className="ButtonIcon" />
+                <a
+                    href="#top"
+                    className={styles.ButtonTop}
+                    onClick={handleClick}
+                >
+                    <BsArrowUpCircle className={styles.ButtonIcon} />
                 </a>
             )}
         </div>
