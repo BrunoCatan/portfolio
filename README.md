@@ -23,7 +23,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 -   Vite.
--   Css.
+-   Module.css.
 -   Typescript.
 -   React.
 -   React Icons.
