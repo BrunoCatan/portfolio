@@ -2,7 +2,6 @@ import { useState } from "react";
 import Logo from "../../assets/logo.svg";
 import "./NavBar.css";
 import scrollToElement from "scroll-to-element";
-import { GrClose } from "react-icons/gr";
 
 export function Navbar() {
     const handleClick = (
