@@ -3,6 +3,14 @@ import { BsLink45Deg, BsGithub } from "react-icons/bs";
 
 const projets = [
     {
+        img: "https://raw.githubusercontent.com/BrunoCatan/CalculadoraDeConsumo/master/.github/Project.png",
+        title: "Calculadora de Consumo",
+        description:
+            "Projeto desenvolvido para facilitar a vida de quem não sabe como calcular o consumo de combustível do seu veiculo.",
+        deploy: "https://calculadora-de-consumo.vercel.app/",
+        repo: "https://github.com/BrunoCatan/CalculadoraDeConsumo",
+    },
+    {
         img: "https://raw.githubusercontent.com/BrunoCatan/portifolio/main/.github/project.png?token=GHSAT0AAAAAABZRJJOVKAZPDIVBARUHWQ5WY6YK5XA",
         title: "Meu Portfólio",
         description:
@@ -40,14 +48,6 @@ const projets = [
             "Com ele você consegui pesquisar coisa dentro do github, desde usuários a repositório e muito mais...",
         deploy: "https://pesquisador-github.vercel.app/",
         repo: "https://github.com/BrunoCatan/pesquisador-github",
-    },
-    {
-        img: "https://user-images.githubusercontent.com/75697499/229916544-148ebd54-fbd9-4904-b1be-844ea9a16270.png",
-        title: "Pokedex",
-        description:
-            "Projeto de uma pokedex com o uso de Api, pesquise seus pokemon favoritos...",
-        deploy: "https://brunocatan.github.io/projeto-pokedex/",
-        repo: "https://github.com/BrunoCatan/projeto-pokedex",
     },
 ];
 
