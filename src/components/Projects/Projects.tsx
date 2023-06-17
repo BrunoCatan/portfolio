@@ -4,7 +4,7 @@ import { BsLink45Deg, BsGithub } from "react-icons/bs";
 const projets = [
     {
         img: "https://raw.githubusercontent.com/BrunoCatan/CalculadoraDeConsumo/master/.github/Project.png",
-        title: "Calculadora de Consumo",
+        title: "Calculadora Consumo",
         description:
             "Projeto desenvolvido para facilitar a vida de quem não sabe como calcular o consumo de combustível do seu veiculo.",
         deploy: "https://calculadora-de-consumo.vercel.app/",
