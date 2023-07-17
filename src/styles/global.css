@@ -6,11 +6,9 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-
+html,
 body {
+    font-size: 62.5%;
     background-color: #363636;
     overflow-x: hidden;
 }
