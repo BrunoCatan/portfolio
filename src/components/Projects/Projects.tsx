@@ -14,7 +14,7 @@ const projets = [
         img: "https://raw.githubusercontent.com/BrunoCatan/portifolio/main/.github/project.png?token=GHSAT0AAAAAABZRJJOVKAZPDIVBARUHWQ5WY6YK5XA",
         title: "Meu Portfólio",
         description:
-            "Projeto desenvolvido para demostrar um poucos mais dos meus projetos, uma portfólio profissional.",
+            "Projeto desenvolvido para demostrar um poucos mais dos meus projetos, um portfólio profissional.",
         deploy: "https://www.brunocatan.dev",
         repo: "https://github.com/BrunoCatan/portifolio",
     },
