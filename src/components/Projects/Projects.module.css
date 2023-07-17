@@ -142,9 +142,16 @@
         width: 95vw;
         gap: 1rem;
     }
+    .Project_div:hover .Projects_cards:not(:hover) {
+        opacity: none;
+    }
     .Projects_cards {
         width: 46vw;
         height: 30vh;
+    }
+    .Projects_cards:hover {
+        transform: none;
+        opacity: none;
     }
     .Projects_cards_img {
         width: 46vw;
