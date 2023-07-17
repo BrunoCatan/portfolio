@@ -21,6 +21,10 @@
     gap: 4rem;
 }
 
+.Project_div:hover .Projects_cards:not(:hover) {
+    opacity: 0.5;
+}
+
 .Projects_cards_div {
     list-style: none;
     padding-inline-start: 0;
@@ -32,6 +36,11 @@
     background: #363636;
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 1);
     border-radius: 20px;
+}
+
+.Projects_cards:hover {
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 .Projects_a_primary {

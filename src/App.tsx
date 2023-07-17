@@ -9,7 +9,7 @@ import "./styles/global.css";
 
 function App() {
     return (
-        <div>
+        <>
             <Navbar />
             <About />
             <Skills />
@@ -17,7 +17,7 @@ function App() {
             <Projects />
             <Footer />
             <ButtonTop />
-        </div>
+        </>
     );
 }
 
