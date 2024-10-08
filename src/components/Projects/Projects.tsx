@@ -19,14 +19,14 @@ const projets = [
         repo: "https://github.com/BrunoCatan/portifolio",
     },
     {
-        img: "https://media.discordapp.net/attachments/666981266008309770/1069048216563228702/projectWeb.png?ex=66a9823c&is=66a830bc&hm=b6c590333e21082a0f92547ccc0f85a1ec1a9f7cd3ca371b6a38766bc66139b1&=&format=webp&quality=lossless&width=1205&height=614",
+        img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216563228702/projectWeb.png?ex=670673fc&is=6705227c&hm=28fcf24070e59d259c06c62ab5ddde1c0a0c4059677add0df2df82111f4bfb90&",
         title: "Rocket web site",
         description: "Projeto web para o Rocket Roleplay.",
         deploy: "https://rocketrp.com.br/",
         repo: "#",
     },
     {
-        img: "https://media.discordapp.net/attachments/666981266008309770/1069048216873603112/project.png?ex=66a9823c&is=66a830bc&hm=ea2bca45db6b7701258f261ce0f7028fcf83638f08de3dc5f337e30a0f8081b7&=&format=webp&quality=lossless&width=1203&height=614",
+        img: "https://cdn.discordapp.com/attachments/666981266008309770/1069048216873603112/project.png?ex=670673fc&is=6705227c&hm=836fad10fb2f6495a14648fa2caaf4f4cd06b5ba48f6c8130a6c15ab449eeeda&",
         title: "Rocket Garage",
         description:
             "O Rocket garage é um script de garagem para seus players poder retirar seu veículos em game.",
