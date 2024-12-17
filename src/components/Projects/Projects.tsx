@@ -1,5 +1,7 @@
 import styles from "./Projects.module.css"
 import { BsLink45Deg, BsGithub } from "react-icons/bs"
+import rkt_web from "../../assets/rkt_web.jpeg"
+import rkt_garage from "../../assets/rkt_garage.jpeg"
 
 const projets = [
   {
@@ -19,14 +21,14 @@ const projets = [
     repo: "https://github.com/BrunoCatan/portifolio",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/web-site-rocket/refs/heads/main/.github/projectWeb.png?token=GHSAT0AAAAAAC32L6XY45Q2FPT6BJ3FUFLMZ3BUR3A",
+    img: rkt_web,
     title: "Rocket web site",
     description: "Projeto web para o Rocket Roleplay.",
     deploy: "https://rocketrp.com.br/",
     repo: "#",
   },
   {
-    img: "https://raw.githubusercontent.com/BrunoCatan/rkt_garage/refs/heads/main/.github/project.png?token=GHSAT0AAAAAAC32L6XZBR4KTOZVAOLV4JJIZ3BUSZQ",
+    img: rkt_garage,
     title: "Rocket Garage",
     description:
       "O Rocket garage é um script de garagem para seus players poder retirar seu veículos em game.",
