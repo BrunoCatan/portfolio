@@ -15,11 +15,7 @@ export function About() {
         <img src={img} alt="Imagem Bruno catan" className={styles.about_img} />
       </div>
       <div className={styles.about_cv_container}>
-        <a
-          href="/public/BrunoCatanDev.pdf"
-          download
-          className={styles.about_cv}
-        >
+        <a href="/BrunoCatanDev.pdf" download className={styles.about_cv}>
           Baixar CV
         </a>
       </div>
