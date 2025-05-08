@@ -16,7 +16,7 @@ export function About() {
       </div>
       <div className={styles.about_cv_container}>
         <a
-          href="../../assets/BrunoCatanDev.pdf"
+          href="/public/BrunoCatanDev.pdf"
           download
           className={styles.about_cv}
         >
