@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css"
 import { BsLinkedin, BsWhatsapp } from "react-icons/bs"
 import { AiFillMail } from "react-icons/ai"
-import { GoMarkGithub } from "react-icons/go"
+import { FaGithub } from "react-icons/fa"
 
 export function Footer() {
   return (
@@ -40,7 +40,7 @@ export function Footer() {
             className={styles.Footer_a}
             target="_blank"
           >
-            <GoMarkGithub className={styles.Footer_icons} />
+            <FaGithub className={styles.Footer_icons} />
             <p>Github</p>
           </a>
         </div>
