@@ -110,6 +110,18 @@ export function Projects() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 flex justify-center animate-slideUp">
+          <a
+            href="https://github.com/BrunoCatan?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-accent text-primary font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-accent-light transition-all duration-300"
+          >
+            <BsGithub size={20} />
+            Ver mais projetos no GitHub
+          </a>
+        </div>
       </div>
     </section>
   )
