@@ -1,41 +1,41 @@
-import { useState } from "react";
-import styles from "./ButtonTop.module.css";
-import { BsArrowUpCircle } from "react-icons/bs";
-import scrollToElement from "scroll-to-element";
+import { useState, useEffect } from "react"
+import { BsArrowUpCircle } from "react-icons/bs"
+import scrollToElement from "scroll-to-element"
 
 export function ButtonTop() {
-    const handleClick = (
-        event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-    ) => {
-        event.preventDefault();
-        const targetId = event.currentTarget.getAttribute("href");
-        if (targetId) {
-            scrollToElement(targetId, {
-                offset: 0,
-                ease: "out-quint",
-                duration: 800,
-            });
-        }
-    };
+  const [isVisible, setIsVisible] = useState(false)
 
-    const [pageYPosition, setPageYPosition] = useState(0);
-
-    function getPageYAfterScroll() {
-        setPageYPosition(window.scrollY);
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsVisible(window.scrollY > 300)
     }
 
-    window.addEventListener("scroll", getPageYAfterScroll);
-    return (
-        <div>
-            {pageYPosition > 50 && (
-                <a
-                    href="#top"
-                    className={styles.ButtonTop}
-                    onClick={handleClick}
-                >
-                    <BsArrowUpCircle className={styles.ButtonIcon} />
-                </a>
-            )}
-        </div>
-    );
+    window.addEventListener("scroll", handleScroll, { passive: true })
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
+  const handleClick = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+  ) => {
+    event.preventDefault()
+    scrollToElement("#top", {
+      offset: 0,
+      ease: "out-quint",
+      duration: 800,
+    })
+  }
+
+  return (
+    isVisible && (
+      <a
+        href="#top"
+        onClick={handleClick}
+        className="fixed bottom-8 right-8 bg-accent hover:bg-accent-light text-primary p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-slideUp z-40"
+        aria-label="Voltar ao topo"
+        title="Voltar ao topo"
+      >
+        <BsArrowUpCircle size={28} />
+      </a>
+    )
+  )
 }

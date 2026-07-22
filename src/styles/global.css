@@ -1,14 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
-* {
-    margin: 0;
-    box-sizing: border-box;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-secondary text-text-light font-poppins overflow-x-hidden;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
+
+  a {
+    @apply transition-colors duration-300;
+  }
 }
 
-html,
-body {
-    font-size: 62.5%;
-    background-color: #363636;
-    overflow-x: hidden;
+/* Smooth scrolling behavior */
+@supports (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
