@@ -16,7 +16,7 @@ const projects = [
     title: "Meu Portfólio",
     description:
       "Projeto desenvolvido para demonstrar um pouco mais dos meus projetos, um portfólio profissional.",
-    deploy: "https://www.brunocatan.dev",
+    deploy: "https://bruno.cortextechnology.com.br/",
     repo: "https://github.com/BrunoCatan/portifolio",
   },
   {
