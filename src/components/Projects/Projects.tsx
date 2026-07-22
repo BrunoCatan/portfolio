@@ -12,7 +12,7 @@ const projects = [
     repo: "https://github.com/BrunoCatan/CalculadoraDeConsumo",
   },
   {
-    img: "./.github/project.png",
+    img: "/src/assets/portfolio.png",
     title: "Meu Portfólio",
     description:
       "Projeto desenvolvido para demonstrar um pouco mais dos meus projetos, um portfólio profissional.",
