@@ -25,17 +25,15 @@ export function ButtonTop() {
     })
   }
 
-  return (
-    isVisible && (
-      <a
-        href="#top"
-        onClick={handleClick}
-        className="fixed bottom-8 right-8 bg-accent hover:bg-accent-light text-primary p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-slideUp z-40"
-        aria-label="Voltar ao topo"
-        title="Voltar ao topo"
-      >
-        <BsArrowUpCircle size={28} />
-      </a>
-    )
-  )
+  return isVisible ? (
+    <a
+      href="#top"
+      onClick={handleClick}
+      className="fixed bottom-8 right-8 bg-accent hover:bg-accent-light text-primary p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-slideUp z-40"
+      aria-label="Voltar ao topo"
+      title="Voltar ao topo"
+    >
+      <BsArrowUpCircle size={28} />
+    </a>
+  ) : null
 }
