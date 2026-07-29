@@ -107,8 +107,6 @@ npm run preview
 
 O portfólio está publicado em: **[bruno.cortextechnology.com.br](https://bruno.cortextechnology.com.br/)**
 
-Você também pode acessar em: **[brunocatan.dev](https://brunocatan.dev/)**
-
 ## 📁 Estrutura do Projeto
 
 ```
